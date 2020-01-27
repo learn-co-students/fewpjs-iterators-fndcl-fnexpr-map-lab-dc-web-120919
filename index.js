@@ -14,7 +14,7 @@ const tutorials = [
 function toTitleCase(string) {
     let words = string.split('');
     let capitalize = words.map( word => word.charAt(0).toUpperCase() + word.slice(1)).join('')
-  return capitalize
+  return capitalize;
 }
 
 const titleCased = () => {
